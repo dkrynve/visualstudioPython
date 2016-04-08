@@ -6,5 +6,6 @@ def mifun(arg1,arg2):
     return
            
 mifun("damian","krynveniuk")	
+mifun("diego","curia")
 
 
