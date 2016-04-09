@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>64365377-c894-4f49-9199-3a13be4da0a6</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>day2\day2.py</StartupFile>
+    <StartupFile>day3\basicFileOperations.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,7 +23,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="day1\PythonApplication1.py" />
-    <Compile Include="day2\day2.py">
+    <Compile Include="day2\hello.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="day3\basicFileOperations.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
