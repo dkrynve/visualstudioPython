@@ -63,6 +63,26 @@ textcont = file.readlines()
 for data in textcont:
     print (data)
 
+if os.path.exists("testFile.txt"):
+    print("The file exist")
+else:
+    print("no existe")
+
+if os.path.isfile("testFile.txt"):
+    print ("es un archivo")
+
+dir = os.getcwd()
+print (dir)
+if os.path.isdir(dir):
+    print (" es un directorio")
+
+
+
+
+
+
+
+
 
 
 
