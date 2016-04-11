@@ -78,6 +78,21 @@ if os.path.isdir(dir):
 
 
 
+shutil.copy("testFile.txt" , "testFile_copy.txt")
+
+os.rename("testFile_copy.txt" , "testFile_dak.txt")
+
+
+#shutil.move("testFile.txt" , "testFile11.txt")
+
+os.remove("testFile11.txt")
+
+
+
+
+
+
+
 
 
 
