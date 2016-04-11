@@ -1,4 +1,6 @@
+# -*- coding: utf-8 -*-
 ''' Basic file operations
+importante el encoding al empezar!!!!!
 voy a listar los archivos de un directorio
 me voy a mover entre los directorios
 voy a abrir un archivo
@@ -48,6 +50,24 @@ for dirpath, dirname, filenames in os.walk(os.getcwd(),topdown="true"):
 
 
 #Ahora me toca trabajar con files!!!!!!
+os.chdir("day3")
+file = open("testFile.txt","w", encoding = "UTF-8")
+print(file)
+file.writelines("Esto es una prueba de archivos")
+file.close()
+file = None
+
+file = open("testFile.txt","r")
+textcont = file.readlines()
+#print("El contenido del arhivo es" + textcont)
+for data in textcont:
+    print (data)
+
+
+
+
+
+
 
 
 
