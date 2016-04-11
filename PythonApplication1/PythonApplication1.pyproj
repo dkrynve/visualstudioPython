@@ -29,11 +29,15 @@
     <Compile Include="day3\basicFileOperations.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="day4\writing_A_Zip_Archiving_Script.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="day1\" />
     <Folder Include="day2\" />
     <Folder Include="day3\" />
+    <Folder Include="day4\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
