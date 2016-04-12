@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>64365377-c894-4f49-9199-3a13be4da0a6</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>day3\basicFileOperations.py</StartupFile>
+    <StartupFile>day4\writing_A_Zip_Archiving_Script.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>

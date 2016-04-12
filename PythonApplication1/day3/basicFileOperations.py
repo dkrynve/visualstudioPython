@@ -40,7 +40,7 @@ for items2 in list2:
     print ("Los items del directorio son " + "C:\\" + items2)
 
 
-# utiliza 3 tuplas la función os.walk para retornar. dejas el cursor arriba y vez la ayuda
+# utiliza 3 tuplas la funci?n os.walk para retornar. dejas el cursor arriba y vez la ayuda
 
 for dirpath, dirname, filenames in os.walk(os.getcwd(),topdown="true"):
        for dir in dirname:
