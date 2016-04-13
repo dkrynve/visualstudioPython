@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>64365377-c894-4f49-9199-3a13be4da0a6</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>day4\writing_A_Zip_Archiving_Script.py</StartupFile>
+    <StartupFile>day4\myTestofWriteZip.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -27,6 +27,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="day3\basicFileOperations.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="day4\myTestofWriteZip.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="day4\writing_A_Zip_Archiving_Script.py">
