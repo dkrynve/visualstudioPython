@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>64365377-c894-4f49-9199-3a13be4da0a6</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>day4\myTestofWriteZip.py</StartupFile>
+    <StartupFile>day5\creating_A_Process_From_A_Python_Script.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -35,12 +35,28 @@
     <Compile Include="day4\writing_A_Zip_Archiving_Script.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="day5\creating_A_Process_From_A_Python_Script.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="day1\" />
     <Folder Include="day2\" />
     <Folder Include="day3\" />
     <Folder Include="day4\" />
+    <Folder Include="day5\" />
+    <Folder Include="day6 - classes\" />
+    <Folder Include="day7 - secuencias y diccionarios\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="day5\subprocess.PNG" />
+    <Content Include="day5\ToDo.txt" />
+    <Content Include="day6 - classes\class1.PNG" />
+    <Content Include="day6 - classes\class2.PNG" />
+    <Content Include="day6 - classes\class3.PNG" />
+    <Content Include="day7 - secuencias y diccionarios\1secuencias.PNG" />
+    <Content Include="day7 - secuencias y diccionarios\2strings.PNG" />
+    <Content Include="day7 - secuencias y diccionarios\3dictionary.PNG" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
