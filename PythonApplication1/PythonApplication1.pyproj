@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>64365377-c894-4f49-9199-3a13be4da0a6</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>day6 - classes\bkpscript.py</StartupFile>
+    <StartupFile>day7 - secuencias y diccionarios\interactiveStrings.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -41,7 +41,16 @@
     <Compile Include="day6 - classes\bkpscript.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="day6 - classes\InteractivClasses.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="day6 - classes\mybackup.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="day7 - secuencias y diccionarios\InteractiveList.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="day7 - secuencias y diccionarios\interactiveStrings.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
