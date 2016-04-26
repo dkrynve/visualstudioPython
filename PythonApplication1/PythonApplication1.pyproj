@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>64365377-c894-4f49-9199-3a13be4da0a6</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>day7 - secuencias y diccionarios\interactiveStrings.py</StartupFile>
+    <StartupFile>day7 - secuencias y diccionarios\InteractiveDictionary.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -45,6 +45,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="day6 - classes\mybackup.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="day7 - secuencias y diccionarios\InteractiveDictionary.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="day7 - secuencias y diccionarios\InteractiveList.py">
