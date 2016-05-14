@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>64365377-c894-4f49-9199-3a13be4da0a6</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>day7 - secuencias y diccionarios\InteractiveDictionary.py</StartupFile>
+    <StartupFile>AutomatePython\disc_free.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="AutomatePython\disc_free.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="day1\PythonApplication1.py" />
     <Compile Include="day2\hello.py">
       <SubType>Code</SubType>
@@ -65,6 +68,7 @@
     <Folder Include="day5\" />
     <Folder Include="day6 - classes\" />
     <Folder Include="day7 - secuencias y diccionarios\" />
+    <Folder Include="AutomatePython\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="day5\subprocess.PNG" />
