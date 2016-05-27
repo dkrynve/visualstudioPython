@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>64365377-c894-4f49-9199-3a13be4da0a6</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>AutomatePython\createService.py</StartupFile>
+    <StartupFile>PingServers\PingServers.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -62,6 +62,9 @@
     <Compile Include="day7 - secuencias y diccionarios\interactiveStrings.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="PingServers\PingServers.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="day1\" />
@@ -72,6 +75,7 @@
     <Folder Include="day6 - classes\" />
     <Folder Include="day7 - secuencias y diccionarios\" />
     <Folder Include="AutomatePython\" />
+    <Folder Include="PingServers\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="day5\subprocess.PNG" />
